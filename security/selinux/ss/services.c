@@ -80,6 +80,7 @@ const char *selinux_policycap_names[__POLICYDB_CAPABILITY_MAX] = {
 	"nnp_nosuid_transition"
 };
 int selinux_android_netlink_route;
+int selinux_android_netlink_getneigh;
 
 static struct selinux_ss selinux_ss;
 
